@@ -18,7 +18,7 @@ in_prompt = gradio.components.Textbox(lines=10, placeholder=None, label='Enter r
 out_response = gradio.components.Textbox(type="text", label='Sentiment')
 
 # Gradio interface to generate UI link
-title = "Sentiment Classification"
+title = "Sentiment Classification Test"
 description = "Analyse sentiment of the given review"
 
 iface = gradio.Interface(fn = predict_sentiment,
